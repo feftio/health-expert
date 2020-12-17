@@ -13,7 +13,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
         QMainWindow.__init__(self)
         self.setupUi(self)
+        self.configurate()
         self.show()
+    
+    def configurate(self):
+        pass
+
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
